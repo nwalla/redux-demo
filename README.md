@@ -42,3 +42,22 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Redux
+
+Install required modules
+
+`yarn add redux react-redux redux-thunk @types/redux @types/react-redux @types/redux-thunk`
+
+Create Redux Directory Locations
+
+```
+src
+└── store
+    ├── ActionCreators
+    ├── Actions
+    ├── Middleware
+    ├── Reducers
+    └── Selectors
+
+```
