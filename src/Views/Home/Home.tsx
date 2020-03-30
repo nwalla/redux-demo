@@ -20,7 +20,7 @@ export const Home: FC<{}> = () => {
 					<td>{ navState ? 'open' : 'close' }</td>
 				</tr>
 				<tr>
-					<td>Current User Clicks:</td>
+					<td>Toggle Navigation MW Clicks:</td>
 					<td>{ navigationClicks }</td>
 				</tr>
 				</body>
