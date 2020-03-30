@@ -25,13 +25,13 @@ class Alt extends PureComponent<TConnectProps ,{}> {
 					Alt Page
 				</header>
 				<table>
-					<body>
+					<tbody>
 						<tr><td>Current Navigation State:</td><td>{ navStateText }</td></tr>
 						<tr><td>Current Navigation State Bool:</td><td>{ navState.toString()}</td></tr>
 						<tr><td>Toggle Navigation MW Clicks:</td><td>{ navigationClicks }</td></tr>
 						<tr><td>Navigation Multiplier:</td><td>{ multiplier }</td></tr>
 						<tr><td>Middleware Multiplier Clicks:</td><td>{  multipliedCount }</td></tr>
-					</body>
+					</tbody>
 				</table>
 
 				<div className="button-container">

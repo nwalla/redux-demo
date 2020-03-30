@@ -14,7 +14,7 @@ export const Home: FC<{}> = () => {
 				Home
 			</header>
 			<table>
-				<body>
+				<tbody>
 				<tr>
 					<td>Current Navigation State:</td>
 					<td>{ navState ? 'open' : 'close' }</td>
@@ -23,7 +23,7 @@ export const Home: FC<{}> = () => {
 					<td>Toggle Navigation MW Clicks:</td>
 					<td>{ navigationClicks }</td>
 				</tr>
-				</body>
+				</tbody>
 			</table>
 			<div className="button-container">
 				<button onClick={ () => dispatch(toggleNavigation) }>Toggle Navigation</button>

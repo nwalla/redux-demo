@@ -5,4 +5,4 @@ import { NavigationReducer } from './navigation';
 
 export const AppReducer = combineReducers<IAppReducerState>({
 	navigation: NavigationReducer
-})
+});
